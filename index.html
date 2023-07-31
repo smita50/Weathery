@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" type="image/x-icon" href="/img/icon3.png">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-image: url('bg2.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="weather">
+            <div class="text">
+                <p><i class="fa-solid fa-temperature-quarter"></i>&nbsp;Minimum temperature is <class id="temp_min">
+                        45<sup>°C</sup></class>
+                </p>
+                <p><i class="fa-solid fa-temperature-three-quarters"></i>&nbsp;Maximum temperature is <class
+                        id="temp_max">
+                        50<sup>°C</sup></class>
+                </p>
+                <p><i class="fa-solid fa-temperature-low"></i>&nbsp;Feels like <class id="feels_like">45<sup>°C</sup>
+                    </class>
+                </p>
+                <p><i class="fa-brands fa-wpressr"></i>&nbsp;Pressure <class id="pressure">45</class>
+                </p>
+            </div>
+        </div>
+
+
+
+
+
+        <div class="abc">
+            <div class="search-box">
+                <input type="text" placeholder="Enter your location" class="input-box">
+
+                <button class="fa-solid fa-magnifying-glass" id="searchBtn"></button>
+            </div>
+
+            <div class="location-not-found">
+                <h1>Sorry, Location not found!!!</h1>
+                <img src="\img\error.png" alt="404 Error">
+            </div>
+
+            <div class="weather-body">
+                <img src="/img/cloud.png" alt="Weather Image" class="weather-img">
+
+                <div class="weather-box">
+                    <p class="temperature">0 <sup>°C</sup></p>
+                    <p class="description">light rain</p>
+                </div>
+
+                <div class="weather-details">
+                    <div class="humidity">
+                        <i class="fa-sharp fa-solid fa-droplet"></i>
+                        <div class="text">
+                            <span id="humidity">45%</span>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span id="wind-speed">12Km/H</span>
+                            <p>Wind Speed</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+
+        <div class="weather2">
+            <div class="text">
+                <p><i class="fa-solid fa-wind"></i>&nbsp;Wind degree <class id="deg">45<sup>°</sup></class>
+                </p>
+                <p><i class="fa-solid fa-eye"></i>&nbsp;Visibility <class id="visibility">45</class>
+                </p>
+                <p><i class="fa-solid fa-globe"></i>&nbsp;Latitude <class id="lat">45</class>
+                </p>
+                <p><i class="fa-solid fa-globe"></i>&nbsp;Longitude <class id="lon">45</class>
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/595a890311.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
