@@ -1,3 +1,3 @@
 # Weathery
-This is a weather app that fetches API from Open Weather Map which shows today's weather and other related details of that particular location.
+The Weathery Website is a informative platform that provides up-to-date weather information for the various locations around the world. Leveraging the power of the Open Weather Map API, this website delivers accurate and real-time weather data, including today's weather for the specific location
 
